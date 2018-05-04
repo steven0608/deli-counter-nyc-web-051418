@@ -9,8 +9,8 @@ line_with_num=[]
     line_with_num.push("#{index}. #{x}")
     index+=1
 end
-return "The line is currently: #{line_with_num}"
 end
+return "The line is currently: #{line_with_num}"
 end
 
 def take_a_number
