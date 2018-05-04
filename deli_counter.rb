@@ -8,7 +8,7 @@ def line(katz_deli)
   else
     katz_deli.each do |x|
     array2="#{index}. #{x}"
-    array1.concat(array2)
+    array1.push(array2)
     index+=1
 end
 end
