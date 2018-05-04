@@ -1,6 +1,5 @@
 # Write your code here.
 def line(katz_deli)
-  array1=["The line is currently:"]
   index=1
 
   if katz_deli.length==0
