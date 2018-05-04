@@ -9,8 +9,7 @@ else
     line_with_num.push(" #{index}. #{x}")
     index+=1
 }
-line_with_num.delete('\"')
-puts "The line is currently: #{line_with_num}"
+puts "The line is currently: #{line_with_num.join(" ")}"
 end
 end
 
