@@ -11,6 +11,7 @@ def line(katz_deli)
     array1.concate(array2)
     index+=1
 end
+end
 array1
 end
 
