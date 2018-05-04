@@ -6,7 +6,7 @@ line_with_num=[]
   puts "The line is currently empty."
 else
     katz_deli.each { |x|
-    line_with_num.push("#{index}. #{x}")
+    line_with_num.push(" #{index}. #{x} ")
     index+=1
 }
 puts "The line is currently: #{line_with_num}"
