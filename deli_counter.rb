@@ -1,17 +1,16 @@
 # Write your code here.
 def line(katz_deli)
-  index=1
-
+index=1
+line_with_num=[]
   if katz_deli.length==0
   puts "The line is currently empty."
   else
     katz_deli.each do |x|
-    array2="#{index}. #{x}"
-    array1.push(array2)
+    line_with_num.push("#{index}. #{x}")
     index+=1
 end
+return "The line is currently: #{line_with_num}"
 end
-array1
 end
 
 def take_a_number
